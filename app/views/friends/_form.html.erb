@@ -35,6 +35,10 @@
     <%#= form.label :twitter, style: "display: block" %>
     <%= form.text_field :twitter, class:"form-control", placeholder: :twitter %>
   </div>
+  <Br>
+  <div class="form-group">
+    <%= form.number_field :user_id, id: :friend_user_id, class:"form-control", value: current_user.id, type: :hidden  %>
+  </div>
   <br>
   <div class="form-group">
     <%= form.submit class:"btn btn-success" %>

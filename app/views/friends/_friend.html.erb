@@ -4,7 +4,17 @@
       <td><%= friend.email %></td>
       <td><%= friend.phone %></td>
       <td><%= friend.twitter %></td>
+      <td><%= friend.user_id %></td>
       <td><%= link_to "Show", friend %></td>
+      
+      <%# if friend.user == current_user %>
       <td><%= link_to "Edit", edit_friend_path(friend) %></td>
       <td><%= button_to "Destroy", friend, method: :delete %></td>
+      
+      <%# else %>
+
+      <%# <td></td> %>
+      <%# <td></td> %>
+
+      <%# end %>
 </tr>
