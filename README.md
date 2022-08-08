@@ -1,26 +1,7 @@
-# README
+# Friends App
 
 Learning Rails with: https://www.youtube.com/watch?v=fmyvWz5TUWg
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This simple App to create a Friends List.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It has user authentication, and each user has his unique friends list.
